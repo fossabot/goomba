@@ -1,0 +1,20 @@
+---
+defaults:
+  kibana:
+    port: 443
+    protocol: https
+    username: demo
+    password: demo
+  es:
+    port: 9200
+    protocol: https
+    username: demo
+    password: demo
+clusters:
+  - es:
+      url: localhost
+      protocol: http
+    kibana:
+      url: localhost
+      protocol: http
+      port: 5601

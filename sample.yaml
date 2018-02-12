@@ -1,0 +1,28 @@
+---
+defaults:
+  kibana:
+    port: 443
+    protocol: https
+    username: demo
+    password: demo
+  es:
+    port: 9200
+    protocol: https
+    username: demo
+    password: demo
+clusters:
+  - es:
+      url: localhost
+      protocol: http
+    kibana:
+      url: localhost
+      protocol: http
+      port: 5601
+  - es:
+      url: es-sample.example.com
+    # kibana url will get populated from es url if not set
+    # this is only applicable for the kibana url as usually
+    # the es & kibana endpoints are the same with alternating
+    # ports
+    exclude:
+      - cluster:my-pattern-*
