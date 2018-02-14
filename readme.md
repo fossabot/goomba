@@ -1,4 +1,6 @@
 # goomba
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBattleroid%2Fgoomba.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FBattleroid%2Fgoomba?ref=badge_shield)
+
 
 It makes the little ⚠️ (warning) triangles go away in Kibana.
 
@@ -14,3 +16,7 @@ As a CLI you can run `$ goomba config.yaml` or `$ goomba --debug config.yaml` to
 * If you fill only the Elasticsearch URL, but not the Kibana URL it'll use the Elasticsearch URL as the Kibana URL.
 
 [config]: sample.yaml
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBattleroid%2Fgoomba.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBattleroid%2Fgoomba?ref=badge_large)
